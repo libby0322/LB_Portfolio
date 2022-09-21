@@ -10,9 +10,9 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 const App = () => {
   return (
     <>
-   <BrowserRouter>
+   <BrowserRouter >
    <Routes>
-    <Route path="/" element={<Top />}></Route>
+    <Route path="/*" element={<Top />}></Route>
     <Route path='/main' element={<Main />}></Route>
     <Route path="/about" element={<About />}></Route>
     <Route path="/features" element={<Features />}></Route>
