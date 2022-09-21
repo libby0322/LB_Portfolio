@@ -4,9 +4,16 @@ import styled from "styled-components";
 
 const Contact = () => {
   return (
-    <Styled.Box>
-    Contact
-   </Styled.Box>
+    <Styled.Container>
+      <Styled.PageBack>
+      <Styled.SlideIn>
+        <Styled.Title>
+        <h3>Contact</h3>
+        </Styled.Title>
+        <Styled.Line />
+      </Styled.SlideIn>
+      </Styled.PageBack>
+   </Styled.Container>
   )
 }
 
